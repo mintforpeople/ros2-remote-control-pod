@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ros2-remote-control-pod_Example' do
+  pod 'ros2-remote-control-pod', :path => '../'
+
+  target 'ros2-remote-control-pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
