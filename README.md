@@ -1,9 +1,12 @@
 # ros2-remote-control-pod
 
+<!--
+
 [![CI Status](https://img.shields.io/travis/lbajo/ros2-remote-control-pod.svg?style=flat)](https://travis-ci.org/lbajo/ros2-remote-control-pod)
 [![Version](https://img.shields.io/cocoapods/v/ros2-remote-control-pod.svg?style=flat)](https://cocoapods.org/pods/ros2-remote-control-pod)
 [![License](https://img.shields.io/cocoapods/l/ros2-remote-control-pod.svg?style=flat)](https://cocoapods.org/pods/ros2-remote-control-pod)
 [![Platform](https://img.shields.io/cocoapods/p/ros2-remote-control-pod.svg?style=flat)](https://cocoapods.org/pods/ros2-remote-control-pod)
+-->
 
 ## Example
 
@@ -26,4 +29,4 @@ lbajo, lbajo9@gmail.com
 
 ## License
 
-ros2-remote-control-pod is available under the MIT license. See the LICENSE file for more info.
+ros2-remote-control-pod is available under the Apache 2 license. See the LICENSE file for more info.
