@@ -1,0 +1,22 @@
+{
+  "name": "ros2-remote-control-pod",
+  "version": "0.1.0",
+  "summary": "A short description of ros2-remote-control-pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lbajo/ros2-remote-control-pod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lbajo": "lbajo9@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lbajo/ros2-remote-control-pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ros2-remote-control-pod/Classes/**/*"
+}

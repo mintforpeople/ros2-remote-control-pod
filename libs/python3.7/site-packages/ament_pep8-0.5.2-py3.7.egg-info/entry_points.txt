@@ -1,0 +1,3 @@
+[console_scripts]
+ament_pep8 = ament_pep8.main:main
+

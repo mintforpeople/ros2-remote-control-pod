@@ -1,0 +1,3 @@
+[console_scripts]
+ament_flake8 = ament_flake8.main:main
+

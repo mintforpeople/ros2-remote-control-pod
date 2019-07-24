@@ -29,11 +29,11 @@
 
 /* Begin PBXFileReference section */
 		0DC17968CE2830D7BD1BFA08 /* Pods-ros2-remote-control-pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ros2-remote-control-pod_Example.debug.xcconfig"; path = "Target Support Files/Pods-ros2-remote-control-pod_Example/Pods-ros2-remote-control-pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		11495B78E5C11D6F1637948E /* ros2-remote-control-pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "ros2-remote-control-pod.podspec"; path = "../ros2-remote-control-pod.podspec"; sourceTree = "<group>"; };
+		11495B78E5C11D6F1637948E /* ros2-remote-control-pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "ros2-remote-control-pod.podspec"; path = "../ros2-remote-control-pod.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C726BB9701654F04F40C41B /* Pods-ros2-remote-control-pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ros2-remote-control-pod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ros2-remote-control-pod_Tests/Pods-ros2-remote-control-pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2144870C645C2E792BD9E12C /* Pods-ros2-remote-control-pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ros2-remote-control-pod_Tests.release.xcconfig"; path = "Target Support Files/Pods-ros2-remote-control-pod_Tests/Pods-ros2-remote-control-pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3B4D7809C5F63F748E5DB148 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4EE9AD9642515B489E6191C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3B4D7809C5F63F748E5DB148 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4EE9AD9642515B489E6191C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5A0A0FFCBF87B6C630ED1A8D /* Pods-ros2-remote-control-pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ros2-remote-control-pod_Example.release.xcconfig"; path = "Target Support Files/Pods-ros2-remote-control-pod_Example/Pods-ros2-remote-control-pod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ros2-remote-control-pod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ros2-remote-control-pod_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				1C726BB9701654F04F40C41B /* Pods-ros2-remote-control-pod_Tests.debug.xcconfig */,
 				2144870C645C2E792BD9E12C /* Pods-ros2-remote-control-pod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 2HJ385R3P2;
+						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2HJ385R3P2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -419,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +479,21 @@
 			baseConfigurationReference = 0DC17968CE2830D7BD1BFA08 /* Pods-ros2-remote-control-pod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2HJ385R3P2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "ros2-remote-control-pod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "/Users/lbajo/ros2_mobile_ws/install/**";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ros2-remote-control-pod/ros2-remote-control-pod_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "/Users/lbajo/ros2_mobile_ws/install/**";
 			};
 			name = Debug;
 		};
@@ -493,13 +502,20 @@
 			baseConfigurationReference = 5A0A0FFCBF87B6C630ED1A8D /* Pods-ros2-remote-control-pod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2HJ385R3P2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "ros2-remote-control-pod/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "/Users/lbajo/ros2_mobile_ws/install/**";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ros2-remote-control-pod/ros2-remote-control-pod_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "/Users/lbajo/ros2_mobile_ws/install/**";
 			};
 			name = Release;
 		};
@@ -507,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C726BB9701654F04F40C41B /* Pods-ros2-remote-control-pod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2HJ385R3P2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2144870C645C2E792BD9E12C /* Pods-ros2-remote-control-pod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2HJ385R3P2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

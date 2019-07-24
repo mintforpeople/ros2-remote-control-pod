@@ -1,0 +1,6 @@
+framework module ros2_remote_control_pod {
+  umbrella header "ros2-remote-control-pod-umbrella.h"
+
+  export *
+  module * { export * }
+}

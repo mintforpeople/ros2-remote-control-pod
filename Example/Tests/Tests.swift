@@ -1,5 +1,5 @@
 import XCTest
-import ros2-remote-control-pod
+import ros2_remote_control_pod
 
 class Tests: XCTestCase {
     

@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/lbajo/ros2-remote-control-pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ros2-remote-control-pod/Classes/**/*'
   
@@ -39,4 +39,15 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  #s.dependency 'robobo-framework-ios-pod', '~>0.1.0'
+  #s.dependency 'robobo-remote-control-ios', '~>0.1.4'
+  
+  s.ios.vendored_libraries = 'libs/*.a'
+  #s.ios.vendored_libraries = 'librclobjc.a'
+
+
+
+
+
 end

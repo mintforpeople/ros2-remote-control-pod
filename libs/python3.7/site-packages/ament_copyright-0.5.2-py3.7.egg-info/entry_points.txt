@@ -1,0 +1,10 @@
+[ament_copyright.copyright_name]
+osrf = ament_copyright.copyright_names:osrf
+
+[ament_copyright.license]
+apache2 = ament_copyright.licenses:apache2
+bsd2 = ament_copyright.licenses:bsd2
+
+[console_scripts]
+ament_copyright = ament_copyright.main:main
+

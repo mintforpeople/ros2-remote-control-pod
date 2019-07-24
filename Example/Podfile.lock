@@ -1,0 +1,16 @@
+PODS:
+  - ros2-remote-control-pod (0.1.0)
+
+DEPENDENCIES:
+  - ros2-remote-control-pod (from `../`)
+
+EXTERNAL SOURCES:
+  ros2-remote-control-pod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ros2-remote-control-pod: 161d37828ae870d70ccc97a8d0baf7a84bd6d7c6
+
+PODFILE CHECKSUM: 94899afe677d35e427c9cebe73969eb287d70dc6
+
+COCOAPODS: 1.7.2
