@@ -71,7 +71,7 @@ lbajo, lbajo9@gmail.com
 
 ros2-remote-control-pod is available under the Apache 2 license. See the LICENSE file for more info.
 
-***
+## Acknowledgement
 <!-- 
     ROSIN acknowledgement from the ROSIN press kit
     @ https://github.com/rosin-project/press_kit
