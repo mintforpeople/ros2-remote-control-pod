@@ -53,7 +53,6 @@ Some examples to test from ROS2... you have to run the next commands from termin
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
